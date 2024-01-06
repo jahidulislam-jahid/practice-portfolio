@@ -22,12 +22,16 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin: 0 200px;
 }
 
 .nav-title {
     color: var(--Dark-01, #181818);
     font-size: 45px;
     font-weight: 800;
+}
+.just-h{
+    color: #FD6E0A;
 }
 
 nav > ul{
@@ -43,4 +47,18 @@ nav li{
 nav a{
     text-decoration: none;
     color: #474747;
+}
+
+/* header related style */
+
+.header-class{
+    background: #FFF8F3;
+}
+.banner{
+    padding: 30px 30px 30px 150px;
+    display: flex;
+    align-items: center;
+}
+.banner .profile-pic{
+    width: 400px;
 }
